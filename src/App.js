@@ -6,17 +6,21 @@ import Cart from "./pages/Cart";
 import CategoriesScreen from "./pages/CategoriesScreen";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./App.css";
+import Footer from "./components/Footer";
 
 const App = () => {
 	return (
 		<>
 			<Header />
-			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path="/category/:category_name" element={<CategoriesScreen />} />
+			<div className="bich">
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/category/:category_name" element={<CategoriesScreen />} />
 
-				<Route path="cart" element={<Cart />} />
-			</Routes>
+					<Route path="cart" element={<Cart />} />
+				</Routes>
+			</div>
+			<Footer />
 		</>
 	);
 };

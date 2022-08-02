@@ -24,7 +24,7 @@ import "./style.css";
 
 const CustomCard = ({ item }) => {
 	return (
-		<div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center mb-4">
+		<div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center p-0 mb-5">
 			<div className="card" style={{ width: "20rem" }}>
 				<img src={item.thumbnail} className="card-img-top" alt="..." />
 				<div className="card-body">

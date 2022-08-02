@@ -24,8 +24,10 @@ const Home = () => {
 	// 	console.log(productsData);
 	// }, [productsData]);
 	return (
-		<div className="row justify-content-center">
-			<ClipLoader loading={!productsData} size={100} />
+		<div className="row w-100">
+			<div className="clip-wrapper">
+				<ClipLoader loading={!productsData} size={100} />
+			</div>
 			{productsData ? (
 				productsData === "error" ? (
 					"Error"

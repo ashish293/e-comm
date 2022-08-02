@@ -1,6 +1,28 @@
+.navbar {
+	position: sticky;
+	top: 0;
+	padding: 20px;
+	z-index: 5;
+}
 .active {
 	color: orange;
 }
 .inactive {
 	color: black;
+}
+.cart-icon {
+	position: relative;
+}
+.cart-badge {
+	position: absolute;
+	top: -20px;
+	right: -15px;
+	border-radius: 50px;
+	background: rgb(255, 166, 0);
+	color: white;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
