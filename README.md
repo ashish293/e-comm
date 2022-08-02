@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# E-commerce app using React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployment link- [click here](https://e-comm-2iogwwh23-ashish293.vercel.app/)
+
+<br/>
+
+## Features-
+
+- Responsive e-commerce web app using React.
+- Getting data from API.
+- CRUD operation for cart management.
+- Redux library used for cart management.
+- cart store in localstorage using redux-persist.
+- library used
+  - react
+  - @reduxjs/toolkit
+  - boostrap
+  - react-router-dom
+  - react-spinners
+  - redux-persist
 
 ## Available Scripts
 

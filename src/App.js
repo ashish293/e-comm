@@ -12,7 +12,7 @@ const App = () => {
 	return (
 		<>
 			<Header />
-			<div className="bich">
+			<div className="middle-content">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/category/:category_name" element={<CategoriesScreen />} />
